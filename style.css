@@ -1,0 +1,508 @@
+html{
+	scroll-behavior: smooth;
+}
+.pc{
+	display: none;
+}
+.mobile{
+	display: block;
+}
+body{
+	font-family: poppins,Helvetica,sans-serif;
+	/* background-image: url(./5654206-cyan-wallpapers.jpg); */
+	/* background-image: url(/dikey.jpg); */
+	background-color: darkcyan;
+	/* background-repeat: no-repeat; */
+	background-size: cover;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* DESKTOP/PC */
+.mainLeft{
+	background-color: #454545;
+	width: 1250px;
+	height: 750px;
+	margin: 95px auto;
+	border-radius: 30px;
+}
+.mainRight{
+	background-color: #222;
+	width: 850px;
+	height: 750px;
+	border-radius: 30px;
+	float: right;
+}
+.profilePicture{
+	width: 200px;
+	height: 200px;
+	background-image: url("/images/Foto_page-0001.jpg");
+	margin-left: 100px;
+	margin-top: 80px;
+	position: absolute;
+	background-size: cover;
+	border-radius: 100px;
+	border-style: solid;
+	border-color: #222;
+}
+.profilePictureShadow{
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	margin-left: 111px;
+	margin-top: 88px;
+	position: absolute;
+	background-size: cover;
+	border-radius: 100px;
+	border-style: solid;
+	border-color: #222;
+	opacity: 50%;
+}
+.nameSurname{
+	background-color: transparent;
+	width: 400px;
+	height: 100px;
+	position: absolute;
+	margin-top: 300px;
+}
+.nameSurname h1{
+	font-family: poppins,Helvetica,sans-serif;
+	font-size: 36px;
+	color: white;
+	padding-left: 93px;
+}
+.jobTitle{
+	background-color: transparent;
+	width: 400px;
+	height: 40px;
+	position: absolute;
+	margin-top: 372px;
+}
+.jobTitle h1{
+	color: darkgray;
+	font-size: 17px;
+	margin-top: 6px;
+	margin-left: 130px;
+}
+.socialMediaIcons{
+	background-color: transparent;
+	width: 400px;
+	height: 60px;
+	position: absolute;
+	margin-top: 415px;
+}
+.space{
+	width: 135px;
+	height: 50px;
+	float: left;
+}
+.instagram{
+	width: 35px;
+	height: 35px;
+	background-color: transparent;
+	float: left;
+	margin-left: 8px;
+	margin-top: 5px;
+	border-radius: 100px;
+}
+.instagram img{
+	max-height: 55%;
+	margin-left: 4px;
+	margin-top: 4px;
+	border-style: solid;
+	border-color: transparent;
+}
+.linkedin{
+	width: 35px;
+	height: 35px;
+	background-color: transparent;
+	float: left;
+	margin-left: 8px;
+	margin-top: 5px;
+	border-radius: 100px;
+	border-style: none;
+	border-color: red;
+}
+.linkedin img{
+	max-height: 50%;
+	padding-left: 8px;
+	padding-top: 6px;
+}
+.twitter{
+	width: 35px;
+	height: 35px;
+	background-color: transparent;
+	float: left;
+	margin-left: 8px;
+	margin-top: 5px;
+	border-radius: 100px;
+	border-style: none;
+	border-color: red;
+}
+.twitter img{
+	max-height: 55%;
+	padding-left: 7px;
+	padding-top: 7px;
+}
+.downloadCv button{
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	margin-top: 490px;
+	margin-left: 125px;
+	border-radius: 100px;
+	background-color: transparent;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	transition: all .25s ease-in-out;
+	color: white;
+}
+.downloadCv :hover{
+	transition: all .3s ease-in-out;
+	background-color: white;
+	color: #09c;
+	cursor: pointer;
+}
+.aboutMe{
+	background-color: transparent;
+	width: 130px;
+	height: 40px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.aboutMe h1{
+	font-size: 28px;
+	color: white;
+}
+.aboutMe span{
+	color: #04b4e0;
+}
+.aboutMeText{
+	background-color: transparent;
+	width: 410px;
+	height: 200px;
+	margin-left: 50px;
+	margin-top: 10px;
+	color: lightgray;
+	line-height: 25px;
+	font-size: 17px;
+	float: left;
+}
+.personalInfos{
+	background-color: transparent;
+	width: 300px;
+	height: 200px;
+	margin-left: 470px;
+	margin-top: -20px;
+}
+.personalInfos ul{
+	font-weight: 600;
+	list-style: none;
+}
+.title{
+	color: #04b4e0;
+	line-height: 35px;
+}
+.value{
+	color: lightgray;
+	font-weight: 200;
+	margin-left: 7px;
+}
+.experience{
+	position: absolute;
+	background-color: transparent;
+	width: 200px;
+	height: 40px;
+	margin-left: 50px;
+	margin-top: -20px;
+}
+.experience h1{
+	font-size: 28px;
+	color: white;
+}
+.experienceText{
+	background-color: transparent;
+	width: 410px;
+	height: 110px;
+}
+.experienceText h2{
+	font-size: 18px;
+	color: #04b4e0;
+}
+.experienceText p{
+	color: lightgray;
+	line-height: 23px;
+}
+.education{
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	background-color: transparent;
+	margin-top: 190px;
+	margin-left: 50px;
+}
+.education h1{
+	font-size: 28px;
+	color: white;
+	margin-top: 5px;
+}
+.educationText{
+	background-color: transparent;
+	width: 410px;
+	height: 110px;
+}
+.educationText h2{
+	font-size: 18px;
+	color: #04b4e0;
+}
+.educationText p{
+	color: lightgray;
+	line-height: 23px;
+}
+.skills{
+	background-color: transparent;
+	width: 300px;
+	height: 350px;
+	margin-left: 510px;
+	margin-top: 50px;
+}
+.skills h1{
+	font-size: 28px;
+	color: white;
+}
+.skills h2{
+	color: white;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.skills p{
+	position: absolute;
+	background-color: transparent;
+	width: 40px;
+	height: 10px;
+	color: darkgray;
+	font-size: 13px;
+	margin-top: -26px;
+	margin-left: 170px;
+}
+progress{
+	position: absolute;
+	color: red;
+	margin-top: -10px;
+	width: 200px;
+	height: 20px;
+}
+.solidity{
+	margin-top: 30px;
+}
+.photoshop{
+	margin-top: 30px;
+}
+.htmlcss{
+	margin-top: 30px;
+}
+.uidesign{
+	margin-top: 30px;
+}
+.cs{
+	margin-top: 30px;
+}
+/* DESKTOP/PC */
+
+/* MOBILE/PHONE */
+.containerBottom{
+	background-color: #222;
+	width: 400px;
+	height: 1530px;
+	margin: 0 auto;
+	margin-top: 30px;
+	border-radius: 30px;
+	margin-bottom: 20px;
+}
+.containerTop{
+	background-color: #454545;
+	width: 400px;
+	height: 150px;
+	border-radius: 30px;
+}
+.mobileProfilePicture{
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 30px;
+	width: 90px;
+	height: 90px;
+	border-radius: 100px;
+	background-image: url(/images/Foto_page-0001.jpg);
+	background-size: cover;
+}
+.mobileProfilePictureShadow{
+	width: 90px;
+	height: 90px;
+	background-color: black;
+	margin-left: 35px;
+	margin-top: 22px;
+	position: absolute;
+	background-size: cover;
+	border-radius: 100px;
+	border-style: solid;
+	border-color: #222;
+	opacity: 50%;
+}
+.mobileNameSurname{
+	width: 230px;
+	height: 40px;
+	background: transparent;
+	margin-top: 30px;
+	margin-left: 140px;
+	position: absolute;
+}
+.mobileNameSurname{
+	color: white;
+	font-size: 16px;
+	margin-top: 0px;
+	margin-left: 155px;
+}
+.mobileJobTitle{
+	position: absolute;
+	background: transparent;
+	width: 150px;
+	height: 20px;
+	margin-top: 53px;
+	margin-left: 186px;
+}
+.mobileJobTitle h1{
+	color: darkgray;
+	font-size: 15px;
+}
+.mobileSocialMediaIcons{
+	position: absolute;
+	background: transparent;
+	width: 160px;
+	height: 33px;
+	margin-top: 95px;
+	margin-left: 180px;
+}
+.mobileIcons{
+	float: left;
+	background-color: transparent;
+	width: 33px;
+	height: 33px;
+	margin-left: 9px;
+	border-radius: 30px;
+}
+.mobileIcons img{
+	max-height: 55%;
+	margin-left: 4px;
+	margin-top: 4px;
+	border-style: solid;
+	border-color: transparent;
+}
+.mobileAboutMe{
+	background-color: transparent;
+	width: 150px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.mobileAboutMe h1{
+	font-size: 28px;
+	color: white;
+}
+.mobileAboutMeText{
+	background-color: transparent;
+	width: 360px;
+	height: 200px;
+	margin-left: 20px;
+	margin-top: 10px;
+	color: lightgray;
+	line-height: 22px;
+	font-size: 15px;
+	float: left;
+}
+.mobileExperience{
+	position: absolute;
+	background-color: transparent;
+	width: 200px;
+	height: 40px;
+	margin-left: 20px;
+	margin-top: 165px;
+}
+.mobileExperienceText{
+	background-color: transparent;
+	width: 370px;
+	height: 110px;
+}
+.mobileExperience h1{
+	font-size: 28px;
+	color: white;
+}
+.mobileExperienceText h2{
+	font-size: 18px;
+	color: #04b4e0;
+}
+.mobileExperienceText p{
+	color: lightgray;
+	line-height: 23px;
+}
+.mobileEducation{
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	background-color: transparent;
+	margin-top: 400px;
+	margin-left: 20px;
+}
+.mobileEducation h1{
+	font-size: 28px;
+	color: white;
+	margin-top: 5px;
+}
+.mobileEducationText{
+	background-color: transparent;
+	width: 370px;
+	height: 110px;
+}
+.mobileEducationText h2{
+	font-size: 18px;
+	color: #04b4e0;
+}
+.mobileEducationText p{
+	color: lightgray;
+	line-height: 23px;
+}
+.mobilePersonalInfos{
+	background-color: transparent;
+	width: 300px;
+	height: 200px;
+	margin-left: 470px;
+	margin-top: -20px;
+}
+.mobilePersonalInfos ul{
+	font-weight: 600;
+	list-style: none;
+}
+.topludiv{
+	margin-left: -430px;
+	margin-top: 650px;
+}
+.mobileDownloadCv button{
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	margin-top: 19px;
+	margin-left: 115px;
+	border-radius: 100px;
+	background-color: transparent;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	transition: all .25s ease-in-out;
+	color: white;
+}
+.mobileDownloadCv :hover{
+	transition: all .3s ease-in-out;
+	background-color: white;
+	color: #09c;
+	cursor: pointer;
+}
